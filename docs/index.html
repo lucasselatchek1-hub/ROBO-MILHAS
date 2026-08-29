@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robô de Milhas e Pontos</title>
+<style>
+  :root {
+    --azul: #1F4E78;
+    --fundo: #f4f6f8;
+    --cartao: #ffffff;
+    --texto: #1a1a1a;
+    --texto-fraco: #6b7280;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--fundo);
+    color: var(--texto);
+  }
+  header {
+    background: var(--azul);
+    color: white;
+    padding: 20px 16px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 { margin: 0; font-size: 1.3rem; }
+  header p { margin: 4px 0 0; font-size: 0.85rem; opacity: 0.85; }
+
+  .resumo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 16px;
+  }
+  @media (min-width: 700px) {
+    .resumo { grid-template-columns: repeat(4, 1fr); }
+  }
+  .resumo .item {
+    background: var(--cartao);
+    border-radius: 12px;
+    padding: 14px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .resumo .item .num { font-size: 1.6rem; font-weight: 700; color: var(--azul); }
+  .resumo .item .lbl { font-size: 0.75rem; color: var(--texto-fraco); margin-top: 2px; }
+
+  .filtros {
+    padding: 0 16px 12px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .filtros button {
+    border: 1px solid #d1d5db;
+    background: white;
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  .filtros button.ativo {
+    background: var(--azul);
+    color: white;
+    border-color: var(--azul);
+  }
+  .busca {
+    padding: 0 16px 12px;
+  }
+  .busca input {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 0.9rem;
+  }
+
+  .lista { padding: 0 16px 40px; display: flex; flex-direction: column; gap: 10px; }
+  .promo {
+    background: var(--cartao);
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    border-left: 6px solid #ccc;
+  }
+  .promo.excelente { border-left-color: #e11d48; }
+  .promo.muito-boa { border-left-color: #16a34a; }
+  .promo.boa { border-left-color: #ca8a04; }
+  .promo.normal { border-left-color: #9ca3af; }
+  .promo.fraca { border-left-color: #d1d5db; }
+
+  .promo-topo { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .promo-classif { font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
+  .promo-status { font-size: 0.72rem; font-weight: 700; margin-left: 6px; }
+  .promo-desc { margin: 6px 0; font-size: 0.95rem; line-height: 1.35; }
+  .promo-meta { font-size: 0.78rem; color: var(--texto-fraco); display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+  .promo-link { display: inline-block; margin-top: 10px; font-size: 0.85rem; color: var(--azul); font-weight: 600; text-decoration: none; }
+  .promo-link:hover { text-decoration: underline; }
+
+  .vazio { text-align: center; padding: 40px 16px; color: var(--texto-fraco); }
+  footer { text-align: center; padding: 20px; color: var(--texto-fraco); font-size: 0.75rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>✈️ Robô de Milhas e Pontos</h1>
+  <p id="atualizado-em">Carregando...</p>
+</header>
+
+<div class="resumo" id="resumo"></div>
+
+<div class="filtros" id="filtros">
+  <button data-filtro="todas" class="ativo">Todas</button>
+  <button data-filtro="🔥 EXCELENTE">🔥 Excelentes</button>
+  <button data-filtro="🆕 NOVA PROMOCAO">🆕 Novas</button>
+  <button data-filtro="⬆️ BONUS AUMENTOU">⬆️ Bônus subiu</button>
+  <button data-filtro="Transferencia bonificada">✈️ Transferências</button>
+  <button data-filtro="Compra bonificada">🛒 Compras</button>
+  <button data-filtro="Cartao de credito">💳 Cartões</button>
+</div>
+
+<div class="busca">
+  <input type="text" id="busca" placeholder="Buscar por palavra, banco ou programa...">
+</div>
+
+<div class="lista" id="lista"></div>
+
+<footer>Atualizado automaticamente pelo GitHub Actions, 2x ao dia.</footer>
+
+<script>
+let TODAS_PROMOCOES = [];
+let FILTRO_ATIVO = "todas";
+
+function classeCss(classificacao) {
+  if (classificacao.includes("EXCELENTE")) return "excelente";
+  if (classificacao.includes("MUITO BOA")) return "muito-boa";
+  if (classificacao.includes("BOA")) return "boa";
+  if (classificacao.includes("NAO VALE")) return "fraca";
+  return "normal";
+}
+
+function formatarValor(valor, sufixo) {
+  return (valor === null || valor === undefined) ? "verificar no link" : `${valor}${sufixo}`;
+}
+
+function renderizarResumo(resumo) {
+  const itens = [
+    ["Total de promoções", resumo.total],
+    ["🆕 Novas", resumo.novas],
+    ["⬆️ Bônus aumentou", resumo.aumentou],
+    ["🔥 Excelentes", resumo.excelentes],
+    ["💳 Cartões", resumo.cartoes],
+    ["🛒 Compras", resumo.compras],
+    ["✈️ Transferências", resumo.transferencias],
+  ];
+  document.getElementById("resumo").innerHTML = itens.map(([lbl, num]) =>
+    `<div class="item"><div class="num">${num}</div><div class="lbl">${lbl}</div></div>`
+  ).join("");
+}
+
+function renderizarLista() {
+  const termoBusca = document.getElementById("busca").value.trim().toLowerCase();
+
+  let filtradas = TODAS_PROMOCOES;
+  if (FILTRO_ATIVO !== "todas") {
+    filtradas = filtradas.filter(p =>
+      p.classificacao === FILTRO_ATIVO || p.status === FILTRO_ATIVO || p.tipo === FILTRO_ATIVO
+    );
+  }
+  if (termoBusca) {
+    filtradas = filtradas.filter(p =>
+      (p.descricao + " " + p.empresa + " " + p.programa).toLowerCase().includes(termoBusca)
+    );
+  }
+
+  const lista = document.getElementById("lista");
+  if (filtradas.length === 0) {
+    lista.innerHTML = `<div class="vazio">Nenhuma promoção encontrada com esse filtro.</div>`;
+    return;
+  }
+
+  lista.innerHTML = filtradas.map(p => `
+    <div class="promo ${classeCss(p.classificacao)}">
+      <div class="promo-topo">
+        <span class="promo-classif">${p.classificacao}${p.status ? `<span class="promo-status">${p.status}</span>` : ""}</span>
+      </div>
+      <div class="promo-desc">${p.descricao}</div>
+      <div class="promo-meta">
+        <span>🏢 ${p.empresa}</span>
+        <span>📂 ${p.tipo}</span>
+        <span>🎁 Bônus: ${formatarValor(p.bonus_pct, "%")}</span>
+        <span>🎯 Pontos/R$: ${formatarValor(p.pontos_por_real, "")}</span>
+        <span>📰 ${p.fonte}</span>
+      </div>
+      <a class="promo-link" href="${p.link}" target="_blank" rel="noopener">Ver promoção completa →</a>
+    </div>
+  `).join("");
+}
+
+async function carregarDados() {
+  try {
+    const resp = await fetch("data.json?t=" + Date.now());
+    const dados = await resp.json();
+    TODAS_PROMOCOES = dados.promocoes || [];
+    document.getElementById("atualizado-em").textContent = "Atualizado em " + dados.gerado_em;
+    renderizarResumo(dados.resumo || {});
+    renderizarLista();
+  } catch (e) {
+    document.getElementById("atualizado-em").textContent = "Ainda não há dados publicados.";
+    document.getElementById("lista").innerHTML = `<div class="vazio">O robô ainda não rodou pela primeira vez. Volte em breve.</div>`;
+  }
+}
+
+document.getElementById("filtros").addEventListener("click", (e) => {
+  if (e.target.tagName !== "BUTTON") return;
+  document.querySelectorAll("#filtros button").forEach(b => b.classList.remove("ativo"));
+  e.target.classList.add("ativo");
+  FILTRO_ATIVO = e.target.dataset.filtro;
+  renderizarLista();
+});
+
+document.getElementById("busca").addEventListener("input", renderizarLista);
+
+carregarDados();
+</script>
+
+</body>
+</html>

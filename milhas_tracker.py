@@ -9,8 +9,7 @@ import re
 import json
 import unicodedata
 from datetime import datetime
-
-import feedparser
+from zoneinfo import ZoneInfo
 
 # =====================================================================
 # 1. CAMINHOS (agora relativos ao repositorio, nao mais ~\Downloads)
@@ -19,6 +18,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DOCS_DIR = os.path.join(BASE_DIR, "docs")
 DATA_JSON_PATH = os.path.join(DOCS_DIR, "data.json")
 HISTORICO_JSON_PATH = os.path.join(DOCS_DIR, "historico.json")
+
+FUSO_BR = ZoneInfo("America/Sao_Paulo")
 
 # =====================================================================
 # 2. FONTES DE PROMOCOES (RSS)
@@ -158,7 +159,7 @@ def chave_unica(fonte, titulo):
 
 def coletar_promocoes():
     registros = []
-    momento_coleta = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    momento_coleta = datetime.now(FUSO_BR).strftime("%Y-%m-%d %H:%M:%S")
 
     for fonte, url in FEEDS:
         try:
@@ -313,7 +314,7 @@ def main():
     resumo = montar_resumo(registros)
 
     saida = {
-        "gerado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
+        "gerado_em": datetime.now(FUSO_BR).strftime("%d/%m/%Y %H:%M"),
         "resumo": resumo,
         "promocoes": registros,
     }

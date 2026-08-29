@@ -11,6 +11,8 @@ import unicodedata
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+import feedparser
+
 # =====================================================================
 # 1. CAMINHOS (agora relativos ao repositorio, nao mais ~\Downloads)
 # =====================================================================
@@ -19,6 +21,8 @@ DOCS_DIR = os.path.join(BASE_DIR, "docs")
 DATA_JSON_PATH = os.path.join(DOCS_DIR, "data.json")
 HISTORICO_JSON_PATH = os.path.join(DOCS_DIR, "historico.json")
 
+# Fuso horario de Brasilia. O robo pode rodar em servidores no fuso UTC,
+# entao usamos sempre este fuso para os horarios mostrarem certo na pagina.
 FUSO_BR = ZoneInfo("America/Sao_Paulo")
 
 # =====================================================================
@@ -304,6 +308,18 @@ def main():
     for r in registros:
         vistos[r["chave"]] = r
     registros = list(vistos.values())
+
+    # ===== TRAVA DE SEGURANCA =====
+    # Se a coleta desta rodada veio vazia (feeds fora do ar, problema de rede
+    # temporario, etc.) e ja existe uma pagina publicada com dados anteriores,
+    # o robo NAO sobrescreve o data.json com zero promocoes. Ele mantem o que
+    # ja estava publicado e tenta de novo na proxima rodada.
+    ja_existe_dado_anterior = os.path.exists(DATA_JSON_PATH)
+    if len(registros) == 0 and ja_existe_dado_anterior:
+        print("ATENCAO: nenhuma promocao foi coletada nesta rodada (possivel falha")
+        print("temporaria nos feeds). Mantendo a pagina com os dados da coleta anterior,")
+        print("em vez de zerar. Vai tentar de novo na proxima execucao agendada.")
+        return
 
     registros, expiradas = comparar_com_anterior(registros)
 

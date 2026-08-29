@@ -1,0 +1,37 @@
+name: Robo de Milhas
+
+on:
+  schedule:
+    # Horarios em UTC. Brasil (horario de Brasilia) = UTC - 3, sem horario de verao.
+    - cron: "0 12 * * *"   # 09:00 no Brasil
+    - cron: "0 1 * * *"    # 22:00 no Brasil
+  workflow_dispatch: {}     # permite rodar manualmente pelo botao "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  rodar-robo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o codigo do repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Rodar o robo de milhas
+        run: python milhas_tracker.py
+
+      - name: Publicar os resultados no repositorio
+        run: |
+          git config user.name "robo-milhas"
+          git config user.email "robo-milhas@users.noreply.github.com"
+          git add docs/data.json docs/historico.json
+          git diff --staged --quiet || git commit -m "Atualizacao automatica de promocoes"
+          git push

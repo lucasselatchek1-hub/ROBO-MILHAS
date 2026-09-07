@@ -1,8 +1,8 @@
 {
-  "gerado_em": "06/09/2026 22:13",
+  "gerado_em": "07/09/2026 09:20",
   "resumo": {
     "total": 60,
-    "novas": 16,
+    "novas": 3,
     "aumentou": 0,
     "excelentes": 0,
     "cartoes": 3,
@@ -12,7 +12,7 @@
   "promocoes": [
     {
       "chave": "pontos pra voar::italia e o destino internacional preferido pelos brasileiros em 2026",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -33,7 +33,7 @@
     },
     {
       "chave": "passageiro de primeira::ultimas horas: receba 25% de bonus nas transferencias de pontos do itau e credicard para o latam pass",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "LATAM Pass, Itau, Itaú",
       "programa": "LATAM Pass",
       "tipo": "Transferencia bonificada",
@@ -53,8 +53,29 @@
       "status": ""
     },
     {
+      "chave": "pontos pra voar::prorrogou! passagens nacionais com ate 20% de desconto no azul fidelidade",
+      "data_coleta": "2026-09-07 09:20:45",
+      "empresa": "Azul Fidelidade, Azul",
+      "programa": "Azul Fidelidade",
+      "tipo": "Necessita verificacao",
+      "descricao": "Prorrogou! Passagens nacionais com até 20% de desconto no Azul Fidelidade",
+      "bonus_pct": 20,
+      "pontos_por_real": null,
+      "gasto_minimo": null,
+      "nota": 20,
+      "necessita_clube": null,
+      "necessita_cartao": null,
+      "necessita_cadastro": null,
+      "data_publicacao": "Mon, 07 Sep 2026 11:00:37 +0000",
+      "classificacao": "⚪ NORMAL",
+      "prioridade": 4,
+      "link": "https://pontospravoar.com/prorrogou-passagens-nacionais-ate-20-porcento-desconto-azul-fidelidade/",
+      "fonte": "Pontos pra Voar",
+      "status": "🆕 NOVA PROMOCAO"
+    },
+    {
       "chave": "passageiro de primeira::livelo oferece 20% de desconto + 20% de pointsback em voos para o caribe",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Livelo",
       "programa": "Livelo",
       "tipo": "Clube / assinatura",
@@ -75,7 +96,7 @@
     },
     {
       "chave": "passageiro de primeira::onde ficar em jericoacoara? 5 sugestoes de hoteis com ate 20% de desconto",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -95,8 +116,29 @@
       "status": ""
     },
     {
+      "chave": "pontos pra voar::livelo oferece ate 25 mil pontos ou desconto na assinatura  clientes elo ganham bonus extra",
+      "data_coleta": "2026-09-07 09:20:45",
+      "empresa": "Livelo",
+      "programa": "Livelo",
+      "tipo": "Clube / assinatura",
+      "descricao": "Livelo oferece até 25 mil pontos ou desconto na assinatura – clientes Elo ganham bônus extra",
+      "bonus_pct": null,
+      "pontos_por_real": null,
+      "gasto_minimo": null,
+      "nota": 0,
+      "necessita_clube": true,
+      "necessita_cartao": null,
+      "necessita_cadastro": null,
+      "data_publicacao": "Mon, 07 Sep 2026 12:00:56 +0000",
+      "classificacao": "⚪ NORMAL",
+      "prioridade": 4,
+      "link": "https://pontospravoar.com/livelo-oferece-ate-25-mil-pontos-desconto-assinatura-clientes-elo-ganham-bonus-extra/",
+      "fonte": "Pontos pra Voar",
+      "status": "🆕 NOVA PROMOCAO"
+    },
+    {
       "chave": "pontos pra voar::palacios de madri poderao ser visitados de graca",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -113,11 +155,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/palacios-de-madri-poderao-ser-visitados-de-graca/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::tem video novo no youtube: veja por que o voo mais barato nem sempre e a escolha mais economica",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -134,11 +176,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/video-novo-youtube-veja-voo-mais-barato-nem-sempre-escolha-mais-economica/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::adeus, filas? brasil cria padrao nacional de biometria em aeroportos e portos",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -155,11 +197,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/adeus-filas-brasil-cria-padrao-nacional-de-biometria-em-aeroportos-e-portos/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::sessao de cinema ppv! top gun  ases indomaveis",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -176,11 +218,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/top-gun-ases-indomaveis-filme-aviacao/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::segue valendo! novas assinaturas recebem ate 30 mil milhas bonus no clube smiles",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Clube / assinatura",
@@ -197,11 +239,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/segue-valendo-novas-assinaturas-recebem-ate-30-mil-milhas-bonus-clube-smiles/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::turismo cresce no brasil, mas moradores apontam desafios",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -218,11 +260,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/turismo-cresce-no-brasil-mas-moradores-apontam-desafios/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::ana aumenta pedido de embraer e190-e2 e chegara a 23 aeronaves",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -239,11 +281,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/ana-aumenta-pedido-de-embraer-e190-e2-e-chegara-a-23-aeronaves/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::alerta ppv! passagens internacionais a partir de 16.016 milhas + taxas",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -260,11 +302,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/alerta-ppv-passagens-internacionais-partir-16016-milhas-taxas/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::norte do brasil: aproveite hoteis com diarias a partir de r$ 158",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Accor",
       "programa": "Accor",
       "tipo": "Necessita verificacao",
@@ -285,7 +327,7 @@
     },
     {
       "chave": "pontos pra voar::que seja eterno enquanto dure! semana do milheiro  31 de agosto a 6 de setembro",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -306,7 +348,7 @@
     },
     {
       "chave": "pontos pra voar::confira promocoes na esfera de ate 25 pontos por real",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Esfera",
       "programa": "Esfera",
       "tipo": "Compra bonificada",
@@ -327,7 +369,7 @@
     },
     {
       "chave": "pontos pra voar::quais sao os voos mais longos do brasil?",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Azul",
       "programa": "Azul",
       "tipo": "Necessita verificacao",
@@ -348,7 +390,7 @@
     },
     {
       "chave": "pontos pra voar::alerta ppv! resgate passagens pelo brasil gastando a partir de 3.900 pontos + taxas",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -369,7 +411,7 @@
     },
     {
       "chave": "pontos pra voar::passagens aereas devem ficar ainda mais caras em 2027",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -390,7 +432,7 @@
     },
     {
       "chave": "pontos pra voar::setembro das milhas: 7 datas que merecem entrar no radar",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Transferencia bonificada",
@@ -410,50 +452,29 @@
       "status": ""
     },
     {
-      "chave": "pontos pra voar::comunidade gratuita: participe do bate-papo do pontos pra voar",
-      "data_coleta": "2026-09-06 22:13:49",
-      "empresa": "Necessita verificacao",
-      "programa": "Necessita verificacao",
-      "tipo": "Necessita verificacao",
-      "descricao": "Comunidade gratuita: participe do bate-papo do Pontos Pra Voar",
-      "bonus_pct": null,
-      "pontos_por_real": null,
-      "gasto_minimo": null,
-      "nota": 0,
-      "necessita_clube": null,
-      "necessita_cartao": null,
-      "necessita_cadastro": null,
-      "data_publicacao": "Sat, 05 Sep 2026 14:00:31 +0000",
-      "classificacao": "⚪ NORMAL",
-      "prioridade": 4,
-      "link": "https://pontospravoar.com/comunidade-gratuita-participe-bate-papo-pontos-pra-voar/",
-      "fonte": "Pontos pra Voar",
-      "status": ""
-    },
-    {
-      "chave": "pontos pra voar::comprar milhas smiles: como funciona e quando pode fazer sentido",
-      "data_coleta": "2026-09-06 22:13:49",
+      "chave": "passageiro de primeira::segue valendo! smiles oferece ate 37 mil milhas em 1 ano com a assinatura do clube 2.000",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Smiles",
       "programa": "Smiles",
-      "tipo": "Necessita verificacao",
-      "descricao": "Comprar milhas Smiles: como funciona e quando pode fazer sentido",
+      "tipo": "Clube / assinatura",
+      "descricao": "Segue valendo! Smiles oferece até 37 mil milhas em 1 ano com a assinatura do Clube 2.000",
       "bonus_pct": null,
       "pontos_por_real": null,
       "gasto_minimo": null,
       "nota": 0,
-      "necessita_clube": null,
+      "necessita_clube": true,
       "necessita_cartao": null,
       "necessita_cadastro": null,
-      "data_publicacao": "Sat, 05 Sep 2026 13:00:46 +0000",
+      "data_publicacao": "Mon, 07 Sep 2026 12:00:27 +0000",
       "classificacao": "⚪ NORMAL",
       "prioridade": 4,
-      "link": "https://pontospravoar.com/comprar-milhas-smiles/",
-      "fonte": "Pontos pra Voar",
-      "status": ""
+      "link": "https://passageirodeprimeira.com/segue-valendo-smiles-oferece-ate-37-mil-milhas-em-1-ano-com-a-assinatura-do-clube-2-000/",
+      "fonte": "Passageiro de Primeira",
+      "status": "🆕 NOVA PROMOCAO"
     },
     {
       "chave": "passageiro de primeira::swiss anuncia novo menu criado por chefs de restaurante michelin da suica",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -470,11 +491,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/swiss-novo-menu-criado-chefs-restaurante-michelin-suica/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::qantas frequent flyer amplia opcoes de resgate em nova parceria com a condor",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -491,11 +512,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/qantas-frequent-flyer-amplia-opcoes-de-resgate-em-nova-parceria-com-a-condor/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::united testa delivery de comida e itens de viagem no portao de embarque",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -512,11 +533,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/united-testa-servico-entregas-aeroporto-newark/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::tap lanca novos kits da executiva e economica prime em parceria com marcas portuguesas",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "TAP",
       "programa": "TAP",
       "tipo": "Necessita verificacao",
@@ -533,11 +554,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/tap-lanca-novos-kits-executiva-economica-prime-parceria-marcas-portuguesas/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::planejando a proxima viagem? veja sugestoes de resgate para roma, miami e muito mais",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -554,11 +575,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/planejando-a-proxima-viagem-veja-sugestoes-de-resgate-para-roma-miami-e-muito-mais/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::cartao azul itau platinum: 16.000 pontos na adesao e ate 3,9 pontos por dolar gasto",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Azul, Itau, Itaú",
       "programa": "Azul",
       "tipo": "Cartao de credito",
@@ -575,11 +596,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/cartao-azul-itau-platinum-16-000-pontos-na-adesao-e-ate-39-pontos-por-dolar-gasto/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::como emitir passagem aerea com milhas e pontos",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -596,11 +617,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/como-emitir-passagem-aerea-com-milhas-e-pontos/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::5 sugestoes de trechos com a azul a partir de 5.200 pontos + taxas",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Azul",
       "programa": "Azul",
       "tipo": "Necessita verificacao",
@@ -621,7 +642,7 @@
     },
     {
       "chave": "passageiro de primeira::delta anuncia parceria com a sport 24 e ira transmitir esportes ao vivo em seus voos",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -642,7 +663,7 @@
     },
     {
       "chave": "passageiro de primeira::conheca os servicos de roaming internacional das operadoras do brasil",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -663,7 +684,7 @@
     },
     {
       "chave": "passageiro de primeira::emirates apresenta selecao de champanhes e vinhos a bordo para 2026",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -684,7 +705,7 @@
     },
     {
       "chave": "passageiro de primeira::taxistas de belo horizonte podem agora buscar passageiros no aeroporto de confins",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -705,7 +726,7 @@
     },
     {
       "chave": "passageiro de primeira::latam e taag firmam acordo de codeshare",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -726,7 +747,7 @@
     },
     {
       "chave": "passageiro de primeira::5 sugestoes de voos partir de 11.600 milhas smiles",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Necessita verificacao",
@@ -747,7 +768,7 @@
     },
     {
       "chave": "passageiro de primeira::lounge gol smiles no aeroporto de guarulhos, veja como e a sala vip e quem pode acessar.",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Necessita verificacao",
@@ -768,7 +789,7 @@
     },
     {
       "chave": "passageiro de primeira::porto plus oferece ate 8 pontos por real gasto em servicos residenciais",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Porto",
       "programa": "Porto",
       "tipo": "Compra bonificada",
@@ -789,7 +810,7 @@
     },
     {
       "chave": "passageiro de primeira::5 sugestoes de voos internacionais a partir de 28 mil milhas smiles + taxas",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Necessita verificacao",
@@ -810,7 +831,7 @@
     },
     {
       "chave": "passageiro de primeira::gol amplia frequencia de voos entre o rio de janeiro e lisboa",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -831,7 +852,7 @@
     },
     {
       "chave": "passageiro de primeira::como solicitar assistencia especial na azul: guia completo",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Azul",
       "programa": "Azul",
       "tipo": "Necessita verificacao",
@@ -852,7 +873,7 @@
     },
     {
       "chave": "passageiro de primeira::emirates apresenta novo assento eletrico para a premium economy",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -873,7 +894,7 @@
     },
     {
       "chave": "passageiro de primeira::voe para barbados no caribe a partir de 74 mil pontos azul + taxas",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Azul Fidelidade, Azul",
       "programa": "Azul Fidelidade",
       "tipo": "Necessita verificacao",
@@ -894,7 +915,7 @@
     },
     {
       "chave": "passageiro de primeira::mes do cliente nos alertas do pp: vem ai uma condicao especial",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -915,7 +936,7 @@
     },
     {
       "chave": "passageiro de primeira::uma conta para viajar, investir e gastar no exterior: saiba tudo sobre o arq",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -936,7 +957,7 @@
     },
     {
       "chave": "passageiro de primeira::os 10 cartoes de credito que mais acumulam pontos e milhas [atualizado 2026]",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Cartao de credito",
@@ -957,7 +978,7 @@
     },
     {
       "chave": "passageiro de primeira::compre uma bicicleta de spinning no shopping smiles e ganhe milhas para resgatar um voo a cidade do cabo",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Compra bonificada",
@@ -977,29 +998,8 @@
       "status": ""
     },
     {
-      "chave": "passageiro de primeira::voe para roma a partir de 63 mil milhas latam pass + taxas",
-      "data_coleta": "2026-09-06 22:13:49",
-      "empresa": "LATAM Pass",
-      "programa": "LATAM Pass",
-      "tipo": "Necessita verificacao",
-      "descricao": "Voe para Roma a partir de 63 mil milhas LATAM Pass + taxas",
-      "bonus_pct": null,
-      "pontos_por_real": null,
-      "gasto_minimo": null,
-      "nota": 0,
-      "necessita_clube": null,
-      "necessita_cartao": null,
-      "necessita_cadastro": null,
-      "data_publicacao": "Fri, 04 Sep 2026 14:20:06 +0000",
-      "classificacao": "⚪ NORMAL",
-      "prioridade": 4,
-      "link": "https://passageirodeprimeira.com/voe-para-roma-a-partir-de-63-mil-milhas-latam-pass-taxas/",
-      "fonte": "Passageiro de Primeira",
-      "status": ""
-    },
-    {
       "chave": "mestre das milhas::voo direto ou com conexao: como avaliar o que realmente compensa na sua viagem",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1020,7 +1020,7 @@
     },
     {
       "chave": "mestre das milhas::taxas e impostos no resgate: por que a passagem com milhas nunca sai de graca",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1041,7 +1041,7 @@
     },
     {
       "chave": "mestre das milhas::como organizar os documentos e reservas da viagem no celular sem virar bagunca",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Cartao de credito",
@@ -1062,7 +1062,7 @@
     },
     {
       "chave": "mestre das milhas::cupons e codigos promocionais de viagem: como saber quais realmente funcionam",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1083,7 +1083,7 @@
     },
     {
       "chave": "mestre das milhas::mudanca de aeronave: por que seu assento pode ser alterado e o que fazer",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1104,7 +1104,7 @@
     },
     {
       "chave": "mestre das milhas::carro alugado, aplicativo ou transporte publico: como avaliar o melhor jeito de circular no destino",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Transferencia bonificada",
@@ -1125,7 +1125,7 @@
     },
     {
       "chave": "mestre das milhas::programas de companhias estrangeiras: quando vale ter conta em mais de um",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1146,7 +1146,7 @@
     },
     {
       "chave": "mestre das milhas::como escolher o assento no aviao de acordo com o tipo da sua viagem",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1167,7 +1167,7 @@
     },
     {
       "chave": "mestre das milhas::temporada de grandes ofertas de viagem: como se preparar com meses de antecedencia",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1188,7 +1188,7 @@
     },
     {
       "chave": "mestre das milhas::viajar com animal de estimacao: as regras que mudam e como confirmar tudo antes do embarque",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1209,7 +1209,7 @@
     },
     {
       "chave": "pontos pra voar::confira ofertas que terminam hoje no azul fidelidade e latam pass",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "LATAM Pass, Azul Fidelidade, Azul, Nubank",
       "programa": "LATAM Pass",
       "tipo": "Necessita verificacao",
@@ -1226,11 +1226,11 @@
       "prioridade": 5,
       "link": "https://pontospravoar.com/confira-ofertas-terminam-hoje-azul-fidelidade-latam-pass/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::aproveite! nomad oferece ate 100 dolares ou euros de cashback na 1a conversao",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1251,7 +1251,7 @@
     },
     {
       "chave": "passageiro de primeira::iof zero! ganhe 5% de cashback na compra de dolares com a astropay",
-      "data_coleta": "2026-09-06 22:13:49",
+      "data_coleta": "2026-09-07 09:20:45",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",

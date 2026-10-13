@@ -1,39 +1,18 @@
 {
-  "gerado_em": "12/10/2026 18:08",
+  "gerado_em": "13/10/2026 04:32",
   "resumo": {
     "total": 60,
-    "novas": 19,
+    "novas": 1,
     "aumentou": 0,
-    "excelentes": 1,
+    "excelentes": 0,
     "cartoes": 6,
     "compras": 1,
-    "transferencias": 5
+    "transferencias": 4
   },
   "promocoes": [
     {
-      "chave": "passageiro de primeira::azul oferece ate 100% de bonus nas transferencias de pontos do uau caixa",
-      "data_coleta": "2026-10-12 18:08:34",
-      "empresa": "Azul Fidelidade, Azul, Caixa",
-      "programa": "Azul Fidelidade",
-      "tipo": "Transferencia bonificada",
-      "descricao": "Azul oferece até 100% de bônus nas transferências de pontos do UAU Caixa",
-      "bonus_pct": 100,
-      "pontos_por_real": null,
-      "gasto_minimo": null,
-      "nota": 100,
-      "necessita_clube": true,
-      "necessita_cartao": null,
-      "necessita_cadastro": null,
-      "data_publicacao": "Fri, 09 Oct 2026 21:00:04 +0000",
-      "classificacao": "🔥 EXCELENTE",
-      "prioridade": 1,
-      "link": "https://passageirodeprimeira.com/azul-oferece-ate-100-de-bonus-nas-transferencias-de-pontos-do-uau-caixa/",
-      "fonte": "Passageiro de Primeira",
-      "status": ""
-    },
-    {
       "chave": "passageiro de primeira::qatar airways oferece 25% de desconto em passagens com avios",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Avios",
       "programa": "Avios",
       "tipo": "Necessita verificacao",
@@ -50,11 +29,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/qatar-airways-oferece-25-de-desconto-em-passagens-com-avios/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::muito bom! porto bank oferece cupom 20% de desconto na amazon",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Porto Bank, Porto, Amazon",
       "programa": "Porto Bank",
       "tipo": "Clube / assinatura",
@@ -75,7 +54,7 @@
     },
     {
       "chave": "pontos pra voar::ultimas horas! receba ate 270 mil milhas na adesao do clube smiles",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Clube / assinatura",
@@ -92,11 +71,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/ultimas-horas-receba-ate-270-mil-milhas-adesao-clube-smiles/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::estradas no brasil que valem uma viagem",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -113,11 +92,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/estradas-no-brasil-que-valem-uma-viagem/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::enoturismo no uruguai ganha forca entre brasileiros: conheca roteiros de vinicolas alem do obvio",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -134,11 +113,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/enoturismo-uruguai-ganha-forca-brasileiros-conheca-roteiros-vinicolas-alem-obvio/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::southwest airlines lanca ferramenta no chatgpt para pesquisar voos e planejar viagens",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -155,11 +134,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/southwest-airlines-lanca-ferramenta-chatgpt-pesquisar-voos-planejar-viagens/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::estados unidos vao acabar com carimbo no passaporte e adotar biometria",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -176,11 +155,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/estados-unidos-vao-acabar-carimbo-passaporte-adotar-biometria/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::tem video novo no youtube: hoteis destino e a tendencia de viajar pela hospedagem",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -197,11 +176,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/o-que-sao-hoteis-destino-tendencia-viagem/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::esfera oferece ate 18 pontos por real gasto em lojas parceiras",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Esfera",
       "programa": "Esfera",
       "tipo": "Transferencia bonificada",
@@ -218,11 +197,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/esfera-oferece-ate-18-pontos-real-gasto-lojas-parceiras/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::ganhe ate 15 mil pontos azul fidelidade na primeira conversao da nomad",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Azul Fidelidade, Azul",
       "programa": "Azul Fidelidade",
       "tipo": "Necessita verificacao",
@@ -239,11 +218,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/ganhe-ate-15-mil-pontos-azul-fidelidade-primeira-conversao-nomad/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::hoteis em sao paulo, belo horizonte e rio de janeiro: confira diarias a partir de r$ 142",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -260,11 +239,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/hoteis-sao-paulo-belo-horizonte-rio-de-janeiro-confira-diarias-142-reais/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::esfera oferece ate 60.000 pontos bonus na assinatura do clube",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Esfera",
       "programa": "Esfera",
       "tipo": "Clube / assinatura",
@@ -281,11 +260,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/esfera-oferece-ate-60000-pontos-bonus-assinatura-clube/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::tem video novo no youtube: curiosidades da aviacao sobre a cor dos avioes e as regras de seguranca",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -306,7 +285,7 @@
     },
     {
       "chave": "pontos pra voar::crianca milheira! semana do milheiro  05 a 11 de outubro",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -327,7 +306,7 @@
     },
     {
       "chave": "pontos pra voar::os queridinhos do ppv promocoes: confira os produtos mais vendidos desta semana",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Amazon, Mercado Livre",
       "programa": "Amazon",
       "tipo": "Necessita verificacao",
@@ -348,7 +327,7 @@
     },
     {
       "chave": "pontos pra voar::british airways anuncia nova sala vip em heathrow com bar de 17 metros",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -369,7 +348,7 @@
     },
     {
       "chave": "pontos pra voar::sessao de cinema ppv! paixao de escritorio",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -390,7 +369,7 @@
     },
     {
       "chave": "pontos pra voar::ainda da tempo! ganhe ate 120 mil pontos bonus na solicitacao do cartao azul itau",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Azul Fidelidade, Azul, Itau, Itaú",
       "programa": "Azul Fidelidade",
       "tipo": "Cartao de credito",
@@ -411,7 +390,7 @@
     },
     {
       "chave": "pontos pra voar::disney aumenta precos dos ingressos em orlando e na california e entradas chegam a us$ 229",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -432,7 +411,7 @@
     },
     {
       "chave": "pontos pra voar::alerta ppv! passagens internacionais a partir de 13.512 milhas + taxas",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -452,8 +431,29 @@
       "status": ""
     },
     {
+      "chave": "passageiro de primeira::klm tera wi-fi gratuito com starlink em voos intercontinentais",
+      "data_coleta": "2026-10-13 04:32:08",
+      "empresa": "Necessita verificacao",
+      "programa": "Necessita verificacao",
+      "tipo": "Necessita verificacao",
+      "descricao": "KLM terá Wi-Fi gratuito com Starlink em voos intercontinentais",
+      "bonus_pct": null,
+      "pontos_por_real": null,
+      "gasto_minimo": null,
+      "nota": 0,
+      "necessita_clube": null,
+      "necessita_cartao": null,
+      "necessita_cadastro": null,
+      "data_publicacao": "Mon, 12 Oct 2026 21:30:19 +0000",
+      "classificacao": "⚪ NORMAL",
+      "prioridade": 4,
+      "link": "https://passageirodeprimeira.com/klm-tera-wi-fi-gratuito-com-starlink-em-voos-intercontinentais/",
+      "fonte": "Passageiro de Primeira",
+      "status": "🆕 NOVA PROMOCAO"
+    },
+    {
       "chave": "passageiro de primeira::cidade do cabo ganhara novo aeroporto internacional para voos de longa distancia",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -470,11 +470,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/cidade-do-cabo-ganhara-novo-aeroporto-internacional-para-voos-de-longa-distancia/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::radisson rewards oferece ate 10 mil pontos bonus em hospedagens",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -491,11 +491,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/radisson-rewards-oferece-ate-10-mil-pontos-em-estadias-de-diferentes-marcas/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::como transferir avios entre os programas da british airways e iberia",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Avios",
       "programa": "Avios",
       "tipo": "Transferencia bonificada",
@@ -512,11 +512,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/transferir-avios-british-iberia/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::onde sentar no aviao em diversos tipos de mapa de assentos?",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -533,11 +533,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/onde-sentar-no-aviao-em-diversos-tipos-de-mapa-de-assentos/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::american airlines recebe aprovacao para investir us$ 100 milhoes na azul",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Azul",
       "programa": "Azul",
       "tipo": "Necessita verificacao",
@@ -558,7 +558,7 @@
     },
     {
       "chave": "passageiro de primeira::westjet recebe autorizacao da anac para operar no brasil",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -579,7 +579,7 @@
     },
     {
       "chave": "passageiro de primeira::planejando a proxima viagem? veja sugestoes de resgate para paris, miami e muito mais",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -600,7 +600,7 @@
     },
     {
       "chave": "passageiro de primeira::guia completo de todas as salas vip do aeroporto internacional de guarulhos",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -621,7 +621,7 @@
     },
     {
       "chave": "passageiro de primeira::segue valendo: assine o clube smiles 2.000 anual e ganhe 15 mil milhas na hora",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Clube / assinatura",
@@ -642,7 +642,7 @@
     },
     {
       "chave": "passageiro de primeira::5 sugestoes de trechos com a azul a partir de 2.520 pontos + taxas",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Azul",
       "programa": "Azul",
       "tipo": "Necessita verificacao",
@@ -663,7 +663,7 @@
     },
     {
       "chave": "passageiro de primeira::royal air maroc tera internet starlink a bordo em 41 aeronaves ate 2027",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -684,7 +684,7 @@
     },
     {
       "chave": "passageiro de primeira::klm celebra 107 anos com nova casa delft blue inspirada em vinicola",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -705,7 +705,7 @@
     },
     {
       "chave": "passageiro de primeira::american express anuncia novas salas vip em newark e heathrow; saiba mais",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -726,7 +726,7 @@
     },
     {
       "chave": "passageiro de primeira::como emitir o seguro viagem do cartao mastercard",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Cartao de credito",
@@ -747,7 +747,7 @@
     },
     {
       "chave": "passageiro de primeira::latam e embraer celebram inicio da entrega do primeiro e195-e2 da companhia aerea",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -768,7 +768,7 @@
     },
     {
       "chave": "passageiro de primeira::ganhe ate 120.000 pontos bonus ao pedir o seu cartao azul itau",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Azul, Itau, Itaú",
       "programa": "Azul",
       "tipo": "Cartao de credito",
@@ -789,7 +789,7 @@
     },
     {
       "chave": "passageiro de primeira::10/10! mercado livre oferece cupom de ate r$150 de desconto em compras",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Mercado Livre",
       "programa": "Mercado Livre",
       "tipo": "Necessita verificacao",
@@ -810,7 +810,7 @@
     },
     {
       "chave": "passageiro de primeira::dia de 101 na livelo! ganhe ate 10 pontos por real gasto diversos parceiros",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Livelo",
       "programa": "Livelo",
       "tipo": "Compra bonificada",
@@ -831,7 +831,7 @@
     },
     {
       "chave": "passageiro de primeira::5 sugestoes de voos partir de 10.600 milhas smiles",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Necessita verificacao",
@@ -852,7 +852,7 @@
     },
     {
       "chave": "passageiro de primeira::latam disponibiliza apple pay para pagamento de servicos no aplicativo",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -873,7 +873,7 @@
     },
     {
       "chave": "passageiro de primeira::gol lanca check-in e cartao de embarque pelo chatgpt",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Cartao de credito",
@@ -894,7 +894,7 @@
     },
     {
       "chave": "mestre das milhas::como chegar ao aeroporto: avaliar estacionamento, aplicativo, taxi ou transporte publico",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -915,7 +915,7 @@
     },
     {
       "chave": "mestre das milhas::programas de fidelidade do varejo: como juntar pontos do supermercado com os de viagem",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -936,7 +936,7 @@
     },
     {
       "chave": "mestre das milhas::antes de uma viagem longa: o que fazer em casa para sair tranquilo",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -957,7 +957,7 @@
     },
     {
       "chave": "mestre das milhas::promocao com contador regressivo: como decidir com calma sem cair na pressao",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -978,7 +978,7 @@
     },
     {
       "chave": "mestre das milhas::nome na passagem diferente do documento: por que esse detalhe pode impedir o embarque",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -999,7 +999,7 @@
     },
     {
       "chave": "mestre das milhas::voo direto ou com conexao: como avaliar o que realmente compensa na sua viagem",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1020,7 +1020,7 @@
     },
     {
       "chave": "mestre das milhas::taxas e impostos no resgate: por que a passagem com milhas nunca sai de graca",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1041,7 +1041,7 @@
     },
     {
       "chave": "mestre das milhas::como organizar os documentos e reservas da viagem no celular sem virar bagunca",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Cartao de credito",
@@ -1062,7 +1062,7 @@
     },
     {
       "chave": "mestre das milhas::cupons e codigos promocionais de viagem: como saber quais realmente funcionam",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1083,7 +1083,7 @@
     },
     {
       "chave": "mestre das milhas::mudanca de aeronave: por que seu assento pode ser alterado e o que fazer",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1104,7 +1104,7 @@
     },
     {
       "chave": "pontos pra voar::confira quatro promocoes no azul fidelidade e na livelo que acabam hoje",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Livelo, Azul Fidelidade, Azul, Caixa",
       "programa": "Livelo",
       "tipo": "Necessita verificacao",
@@ -1121,11 +1121,11 @@
       "prioridade": 5,
       "link": "https://pontospravoar.com/confira-quatro-promocoes-azul-fidelidade-livelo-acabam-hoje/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::azul fidelidade oferece cupom de ate 15% de desconto em passagens",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Azul Fidelidade, Azul, Caixa",
       "programa": "Azul Fidelidade",
       "tipo": "Necessita verificacao",
@@ -1142,11 +1142,11 @@
       "prioridade": 5,
       "link": "https://passageirodeprimeira.com/aniversario-uau-caixa-azul-fidelidade-oferece-ate-15-desconto-passagens/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::ultimas horas! all accor oferece 15% de bonus para novos assinantes all signature",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Accor",
       "programa": "Accor",
       "tipo": "Transferencia bonificada",
@@ -1167,7 +1167,7 @@
     },
     {
       "chave": "passageiro de primeira::livelo oferece 15% de desconto na emissao de voos para fortaleza",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Livelo",
       "programa": "Livelo",
       "tipo": "Necessita verificacao",
@@ -1188,7 +1188,7 @@
     },
     {
       "chave": "passageiro de primeira::ultimo dia! transfira pontos nubank para a livelo e ganhe 10% de bonus",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Livelo, Nubank",
       "programa": "Livelo",
       "tipo": "Transferencia bonificada",
@@ -1205,11 +1205,11 @@
       "prioridade": 5,
       "link": "https://passageirodeprimeira.com/ultimo-dia-transfira-pontos-nubank-para-a-livelo-e-ganhe-10-de-bonus/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::ultimo dia! ganhe 8% de desconto em reservas com hoteis.com",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1226,11 +1226,11 @@
       "prioridade": 5,
       "link": "https://passageirodeprimeira.com/ultimo-dia-ganhe-8-desconto-reservas-hoteis-com-2/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::como abrir conta global arq e garantir o cartao fisico sem custo",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Cartao de credito",
@@ -1251,7 +1251,7 @@
     },
     {
       "chave": "passageiro de primeira::abra sua conta nomad e receba 3% de cashback na primeira conversao",
-      "data_coleta": "2026-10-12 18:08:34",
+      "data_coleta": "2026-10-13 04:32:08",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",

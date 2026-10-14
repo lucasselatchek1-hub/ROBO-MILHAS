@@ -29,25 +29,48 @@
   }
   header h1 { margin: 0; font-size: 1.3rem; }
   header p { margin: 4px 0 0; font-size: 0.85rem; opacity: 0.85; }
+  .cab { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  #btn-atualizar {
+    border: 0; border-radius: 999px; padding: 9px 14px; font-size: 0.85rem; font-weight: 700;
+    background: #ffffff; color: var(--azul); cursor: pointer; white-space: nowrap;
+  }
+  #btn-atualizar:disabled { opacity: 0.65; cursor: default; }
+
+  #aviso { margin: 12px 16px 0; padding: 10px 12px; border-radius: 10px; font-size: 0.85rem; background: #e0ecf8; color: #12395c; }
+  #aviso.ok { background: #dcfce7; color: #14532d; }
+  #aviso.erro { background: #fee2e2; color: #7f1d1d; }
+  #aviso[hidden] { display: none; }
+
+  #painel { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 50; }
+  #painel[hidden] { display: none; }
+  #painel .caixa { background: #fff; border-radius: 14px; padding: 18px; max-width: 460px; width: 100%; max-height: 90vh; overflow: auto; }
+  #painel h2 { margin: 0 0 8px; font-size: 1.05rem; }
+  #painel p { font-size: 0.85rem; line-height: 1.4; color: #374151; margin: 8px 0; }
+  #painel a { color: var(--azul); font-weight: 600; }
+  #painel input { width: 100%; padding: 10px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 0.9rem; margin: 8px 0; }
+  #painel .acoes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; align-items: center; }
+  #painel .acoes button { border: 1px solid #d1d5db; background: #fff; border-radius: 999px; padding: 8px 14px; font-size: 0.85rem; cursor: pointer; }
+  #painel .acoes button.primario { background: var(--azul); color: #fff; border-color: var(--azul); font-weight: 700; }
+  #erro-painel { color: #b91c1c; }
 
   .resumo {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding: 16px;
   }
   @media (min-width: 700px) {
-    .resumo { grid-template-columns: repeat(4, 1fr); }
+    .resumo { grid-template-columns: repeat(5, 1fr); }
   }
   .resumo .item {
     background: var(--cartao);
     border-radius: 12px;
-    padding: 14px;
+    padding: 12px 8px;
     text-align: center;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
   }
-  .resumo .item .num { font-size: 1.6rem; font-weight: 700; color: var(--azul); }
-  .resumo .item .lbl { font-size: 0.75rem; color: var(--texto-fraco); margin-top: 2px; }
+  .resumo .item .num { font-size: 1.5rem; font-weight: 700; color: var(--azul); }
+  .resumo .item .lbl { font-size: 0.72rem; color: var(--texto-fraco); margin-top: 2px; }
 
   .filtros {
     padding: 0 16px 12px;
@@ -68,9 +91,7 @@
     color: white;
     border-color: var(--azul);
   }
-  .busca {
-    padding: 0 16px 12px;
-  }
+  .busca { padding: 0 16px 12px; }
   .busca input {
     width: 100%;
     padding: 10px 12px;
@@ -93,13 +114,37 @@
   .promo.normal { border-left-color: #9ca3af; }
   .promo.fraca { border-left-color: #d1d5db; }
 
-  .promo-topo { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .promo-topo { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
   .promo-classif { font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
-  .promo-status { font-size: 0.72rem; font-weight: 700; margin-left: 6px; }
-  .promo-desc { margin: 6px 0; font-size: 0.95rem; line-height: 1.35; }
-  .promo-meta { font-size: 0.78rem; color: var(--texto-fraco); display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+  .tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: #eef2f7;
+    white-space: nowrap;
+  }
+  .tag.terminando { background: #fee2e2; color: #b91c1c; }
+  .tag.nova { background: #dbeafe; color: #1d4ed8; }
+  .tag.aumentou { background: #dcfce7; color: #15803d; }
+  .promo-desc { margin: 8px 0 6px; font-size: 0.95rem; line-height: 1.35; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+  .chip {
+    font-size: 0.78rem;
+    background: #f1f5f9;
+    border-radius: 8px;
+    padding: 3px 8px;
+  }
+  .chip b { color: var(--azul); }
+
+  .promo-meta { font-size: 0.76rem; color: var(--texto-fraco); display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+  .obs { margin: 8px 0 0; padding-left: 18px; font-size: 0.78rem; color: #4b5563; }
+  .obs li { margin: 2px 0; }
   .promo-link { display: inline-block; margin-top: 10px; font-size: 0.85rem; color: var(--azul); font-weight: 600; text-decoration: none; }
   .promo-link:hover { text-decoration: underline; }
+  .extras { margin-top: 6px; font-size: 0.76rem; color: var(--texto-fraco); }
+  .extras a { color: var(--azul); }
 
   .vazio { text-align: center; padding: 40px 16px; color: var(--texto-fraco); }
   footer { text-align: center; padding: 20px; color: var(--texto-fraco); font-size: 0.75rem; }
@@ -108,20 +153,31 @@
 <body>
 
 <header>
-  <h1>✈️ Robô de Milhas e Pontos</h1>
-  <p id="atualizado-em">Carregando...</p>
+  <div class="cab">
+    <div>
+      <h1>✈️ Robô de Milhas e Pontos</h1>
+      <p id="atualizado-em">Carregando...</p>
+    </div>
+    <button id="btn-atualizar" type="button">🔄 Atualizar agora</button>
+  </div>
 </header>
+
+<div id="aviso" hidden></div>
 
 <div class="resumo" id="resumo"></div>
 
 <div class="filtros" id="filtros">
   <button data-filtro="todas" class="ativo">Todas</button>
-  <button data-filtro="🔥 EXCELENTE">🔥 Excelentes</button>
-  <button data-filtro="🆕 NOVA PROMOCAO">🆕 Novas</button>
-  <button data-filtro="⬆️ BONUS AUMENTOU">⬆️ Bônus subiu</button>
-  <button data-filtro="Transferencia bonificada">✈️ Transferências</button>
-  <button data-filtro="Compra bonificada">🛒 Compras</button>
-  <button data-filtro="Cartao de credito">💳 Cartões</button>
+  <button data-filtro="excelentes">🔥 Excelentes</button>
+  <button data-filtro="novas">🆕 Novas</button>
+  <button data-filtro="aumentou">⬆️ Bônus subiu</button>
+  <button data-filtro="terminando">⏰ Terminando</button>
+  <button data-filtro="clubes">🎟️ Clubes</button>
+  <button data-filtro="compra_pontos">💰 Compra de pontos</button>
+  <button data-filtro="transferencias">✈️ Transferências</button>
+  <button data-filtro="compras">🛒 Compras</button>
+  <button data-filtro="cartoes">💳 Cartões</button>
+  <button data-filtro="outros">📂 Outros</button>
 </div>
 
 <div class="busca">
@@ -130,51 +186,129 @@
 
 <div class="lista" id="lista"></div>
 
-<footer>Atualizado automaticamente pelo GitHub Actions, 2x ao dia.</footer>
+<footer>
+  Atualizado automaticamente pelo GitHub Actions, 2x ao dia (09h e 22h, horário de Brasília).
+  <div style="margin-top:6px"><a href="#" id="link-remover-token" hidden>Remover o token deste aparelho</a></div>
+</footer>
+
+<div id="painel" hidden>
+  <div class="caixa">
+    <h2>Ativar o botão (uma vez só)</h2>
+    <p>Para rodar o robô direto daqui, cole abaixo um <b>token do GitHub</b> criado só para este repositório, com a permissão <b>Actions → Read and write</b>. Ele fica salvo apenas neste navegador e não aparece no site.</p>
+    <p><a id="link-criar-token" href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">1) Criar o token no GitHub</a></p>
+    <input id="campo-token" type="password" placeholder="2) Cole o token aqui (começa com github_pat_)" autocomplete="off">
+    <p id="erro-painel" hidden></p>
+    <div class="acoes">
+      <button id="btn-salvar-token" type="button" class="primario">Salvar e rodar agora</button>
+      <button id="btn-fechar-painel" type="button">Cancelar</button>
+    </div>
+    <p>Sem token? <a id="link-github" href="#" target="_blank" rel="noopener">Abra o robô no GitHub</a> e toque em <b>Run workflow</b>.</p>
+  </div>
+</div>
 
 <script>
 let TODAS_PROMOCOES = [];
 let FILTRO_ATIVO = "todas";
 
+function esc(valor) {
+  return String(valor === null || valor === undefined ? "" : valor)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+}
+
+function linkSeguro(url) {
+  return /^https?:\/\//i.test(url || "") ? esc(url) : "#";
+}
+
+function ehRelevante(p) {
+  return p.relevante !== false;
+}
+
+const FILTROS = {
+  todas: (p) => ehRelevante(p),
+  excelentes: (p) => ehRelevante(p) && (p.classificacao || "").includes("EXCELENTE"),
+  novas: (p) => ehRelevante(p) && p.status === "🆕 NOVA PROMOCAO",
+  aumentou: (p) => ehRelevante(p) && p.status === "⬆️ BONUS AUMENTOU",
+  terminando: (p) => ehRelevante(p) && !!p.prazo,
+  clubes: (p) => p.tipo === "Clube / assinatura",
+  compra_pontos: (p) => p.tipo === "Compra de pontos",
+  transferencias: (p) => p.tipo === "Transferencia bonificada",
+  compras: (p) => p.tipo === "Compra bonificada",
+  cartoes: (p) => p.tipo === "Cartao de credito" || p.tipo === "Conta / cadastro" || p.tipo === "Cashback",
+  outros: (p) => !ehRelevante(p),
+};
+
 function classeCss(classificacao) {
-  if (classificacao.includes("EXCELENTE")) return "excelente";
-  if (classificacao.includes("MUITO BOA")) return "muito-boa";
-  if (classificacao.includes("BOA")) return "boa";
-  if (classificacao.includes("NAO VALE")) return "fraca";
+  const c = classificacao || "";
+  if (c.includes("EXCELENTE")) return "excelente";
+  if (c.includes("MUITO BOA")) return "muito-boa";
+  if (c.includes("NAO VALE")) return "fraca";
+  if (c.includes("BOA")) return "boa";
   return "normal";
 }
 
-function formatarValor(valor, sufixo) {
-  return (valor === null || valor === undefined) ? "verificar no link" : `${valor}${sufixo}`;
+function fmtNumero(n) {
+  return Number(n).toLocaleString("pt-BR");
 }
 
-function renderizarResumo(resumo) {
+function fmtData(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  return d.toLocaleString("pt-BR", {
+    day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit",
+    timeZone: "America/Sao_Paulo",
+  });
+}
+
+function fmtDiaMes(iso) {
+  if (!iso) return "";
+  const partes = iso.split("-");
+  return partes.length === 3 ? partes[2] + "/" + partes[1] : "";
+}
+
+function renderizarResumo(r) {
   const itens = [
-    ["Total de promoções", resumo.total],
-    ["🆕 Novas", resumo.novas],
-    ["⬆️ Bônus aumentou", resumo.aumentou],
-    ["🔥 Excelentes", resumo.excelentes],
-    ["💳 Cartões", resumo.cartoes],
-    ["🛒 Compras", resumo.compras],
-    ["✈️ Transferências", resumo.transferencias],
+    ["Promoções", r.total],
+    ["🔥 Excelentes", r.excelentes],
+    ["🆕 Novas", r.novas],
+    ["⬆️ Bônus subiu", r.aumentou],
+    ["⏰ Terminando", r.terminando],
+    ["🎟️ Clubes", r.clubes],
+    ["💰 Compra de pontos", r.compra_pontos],
+    ["✈️ Transferências", r.transferencias],
+    ["🛒 Compras", r.compras],
+    ["💳 Cartões", r.cartoes],
   ];
   document.getElementById("resumo").innerHTML = itens.map(([lbl, num]) =>
-    `<div class="item"><div class="num">${num}</div><div class="lbl">${lbl}</div></div>`
+    `<div class="item"><div class="num">${esc(num === undefined ? 0 : num)}</div><div class="lbl">${esc(lbl)}</div></div>`
   ).join("");
 }
 
-function renderizarLista() {
-  const termoBusca = document.getElementById("busca").value.trim().toLowerCase();
+function chipsDaPromo(p) {
+  const chips = [];
+  if (p.bonus_pct != null) chips.push(`🎁 Bônus <b>${fmtNumero(p.bonus_pct)}%</b>`);
+  if (p.desconto_pct != null) chips.push(`🏷️ Desconto <b>${fmtNumero(p.desconto_pct)}%</b>`);
+  if (p.cashback_pct != null) chips.push(`💵 Cashback <b>${fmtNumero(p.cashback_pct)}%</b>`);
+  if (p.pontos_por_real != null) chips.push(`🎯 <b>${fmtNumero(p.pontos_por_real)}</b> pontos por R$ 1`);
+  if (p.volume_pontos != null) chips.push(`⭐ <b>${fmtNumero(p.volume_pontos)}</b> pontos/milhas`);
+  if (p.milheiro != null) chips.push(`📦 Milheiro <b>R$ ${fmtNumero(p.milheiro)}</b>`);
+  if (p.gasto_minimo != null) chips.push(`💳 Gasto mín. <b>R$ ${fmtNumero(p.gasto_minimo)}</b>`);
+  if (p.data_termino) chips.push(`📅 Até <b>${esc(fmtDiaMes(p.data_termino))}</b>`);
+  if (p.necessita_clube) chips.push("🎟️ Clube");
+  if (p.necessita_cartao) chips.push("💳 Cartão");
+  return chips.map((c) => `<span class="chip">${c}</span>`).join("");
+}
 
-  let filtradas = TODAS_PROMOCOES;
-  if (FILTRO_ATIVO !== "todas") {
-    filtradas = filtradas.filter(p =>
-      p.classificacao === FILTRO_ATIVO || p.status === FILTRO_ATIVO || p.tipo === FILTRO_ATIVO
-    );
-  }
-  if (termoBusca) {
-    filtradas = filtradas.filter(p =>
-      (p.descricao + " " + p.empresa + " " + p.programa).toLowerCase().includes(termoBusca)
+function renderizarLista() {
+  const termo = document.getElementById("busca").value.trim().toLowerCase();
+  const filtro = FILTROS[FILTRO_ATIVO] || FILTROS.todas;
+
+  let filtradas = TODAS_PROMOCOES.filter(filtro);
+  if (termo) {
+    filtradas = filtradas.filter((p) =>
+      ((p.descricao || "") + " " + (p.empresa || "") + " " + (p.programa || "") + " " + (p.tipo || ""))
+        .toLowerCase().includes(termo)
     );
   }
 
@@ -184,41 +318,216 @@ function renderizarLista() {
     return;
   }
 
-  lista.innerHTML = filtradas.map(p => `
+  lista.innerHTML = filtradas.map((p) => {
+    const tags = [];
+    if (p.status === "🆕 NOVA PROMOCAO") tags.push(`<span class="tag nova">🆕 NOVA</span>`);
+    if (p.status === "⬆️ BONUS AUMENTOU") tags.push(`<span class="tag aumentou">⬆️ BÔNUS AUMENTOU</span>`);
+    if (p.prazo) tags.push(`<span class="tag terminando">⏰ TERMINANDO</span>`);
+    if (ehRelevante(p)) tags.push(`<span class="tag">${esc(p.tipo)}</span>`);
+
+    const obs = (p.observacoes || []).length
+      ? `<ul class="obs">${p.observacoes.map((o) => `<li>${esc(o)}</li>`).join("")}</ul>` : "";
+
+    const extras = (p.fontes_extras || []).length
+      ? `<div class="extras">Também em: ${p.fontes_extras.map((e) =>
+          `<a href="${linkSeguro(e.link)}" target="_blank" rel="noopener">${esc(e.fonte)}</a>`).join(" · ")}</div>` : "";
+
+    const publicado = fmtData(p.publicado_iso);
+
+    return `
     <div class="promo ${classeCss(p.classificacao)}">
       <div class="promo-topo">
-        <span class="promo-classif">${p.classificacao}${p.status ? `<span class="promo-status">${p.status}</span>` : ""}</span>
+        <span class="promo-classif">${esc(p.classificacao)}</span>${tags.join("")}
       </div>
-      <div class="promo-desc">${p.descricao}</div>
+      <div class="promo-desc">${esc(p.descricao)}</div>
+      <div class="chips">${chipsDaPromo(p)}</div>
       <div class="promo-meta">
-        <span>🏢 ${p.empresa}</span>
-        <span>📂 ${p.tipo}</span>
-        <span>🎁 Bônus: ${formatarValor(p.bonus_pct, "%")}</span>
-        <span>🎯 Pontos/R$: ${formatarValor(p.pontos_por_real, "")}</span>
-        <span>📰 ${p.fonte}</span>
+        <span>🏢 ${esc(p.empresa)}</span>
+        <span>📰 ${esc(p.fonte)}</span>
+        ${publicado ? `<span>🕒 ${esc(publicado)}</span>` : ""}
       </div>
-      <a class="promo-link" href="${p.link}" target="_blank" rel="noopener">Ver promoção completa →</a>
-    </div>
-  `).join("");
+      ${obs}
+      <a class="promo-link" href="${linkSeguro(p.link)}" target="_blank" rel="noopener">Ver promoção completa →</a>
+      ${extras}
+    </div>`;
+  }).join("");
+}
+
+/* ===== Carregar e mostrar os dados ===== */
+let GERADO_EM_ATUAL = "";
+
+async function buscarDados() {
+  try {
+    const resp = await fetch("data.json?t=" + Date.now());
+    return await resp.json();
+  } catch (e) {
+    return null;
+  }
+}
+
+function aplicarDados(dados) {
+  TODAS_PROMOCOES = dados.promocoes || [];
+  GERADO_EM_ATUAL = dados.gerado_em || "";
+  document.getElementById("atualizado-em").textContent = "Atualizado em " + dados.gerado_em;
+  renderizarResumo(dados.resumo || {});
+  renderizarLista();
 }
 
 async function carregarDados() {
-  try {
-    const resp = await fetch("data.json?t=" + Date.now());
-    const dados = await resp.json();
-    TODAS_PROMOCOES = dados.promocoes || [];
-    document.getElementById("atualizado-em").textContent = "Atualizado em " + dados.gerado_em;
-    renderizarResumo(dados.resumo || {});
-    renderizarLista();
-  } catch (e) {
+  const dados = await buscarDados();
+  if (dados) {
+    aplicarDados(dados);
+  } else {
     document.getElementById("atualizado-em").textContent = "Ainda não há dados publicados.";
-    document.getElementById("lista").innerHTML = `<div class="vazio">O robô ainda não rodou pela primeira vez. Volte em breve.</div>`;
+    document.getElementById("lista").innerHTML =
+      `<div class="vazio">O robô ainda não rodou pela primeira vez. Volte em breve.</div>`;
   }
+}
+
+/* ===== Botão "Atualizar agora" ===== */
+const WORKFLOW = "robo-milhas.yml";
+const BRANCH = "main";
+const INTERVALO_SONDAGEM_MS = 15000;
+const LIMITE_SONDAGEM_MS = 6 * 60 * 1000;
+const CHAVE_TOKEN = "robo_milhas_token";
+let EM_EXECUCAO = false;
+
+// Descobre o dono e o nome do repositório pelo endereço da própria página
+// (https://DONO.github.io/REPOSITORIO/), assim nada fica escrito no código.
+function infoRepositorio() {
+  const dono = location.hostname.split(".")[0];
+  const repo = location.pathname.split("/").filter(Boolean)[0] || "";
+  return { dono, repo };
+}
+
+function lerToken() {
+  try { return localStorage.getItem(CHAVE_TOKEN) || ""; } catch (e) { return ""; }
+}
+function salvarToken(valor) {
+  try { localStorage.setItem(CHAVE_TOKEN, valor); } catch (e) {}
+}
+function removerToken() {
+  try { localStorage.removeItem(CHAVE_TOKEN); } catch (e) {}
+}
+
+function atualizarLinkRemover() {
+  document.getElementById("link-remover-token").hidden = !lerToken();
+}
+
+function mostrarAviso(texto, tipo) {
+  const el = document.getElementById("aviso");
+  el.textContent = texto;
+  el.className = tipo || "";
+  el.hidden = false;
+}
+
+function abrirPainel(mensagemErro) {
+  const { dono, repo } = infoRepositorio();
+  document.getElementById("link-github").href =
+    `https://github.com/${dono}/${repo}/actions/workflows/${WORKFLOW}`;
+  const erro = document.getElementById("erro-painel");
+  erro.hidden = !mensagemErro;
+  erro.textContent = mensagemErro || "";
+  document.getElementById("painel").hidden = false;
+}
+
+function fecharPainel() {
+  document.getElementById("painel").hidden = true;
+  document.getElementById("campo-token").value = "";
+}
+
+function esperar(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function explicarErro(status) {
+  if (status === 401) return "O GitHub não aceitou o token (inválido ou vencido). Crie outro e cole de novo.";
+  if (status === 403) return "O token não tem permissão de Actions (Read and write), ou o limite do GitHub foi atingido.";
+  if (status === 404) return "O GitHub não achou o robô com esse token. Confira se o token foi criado para este repositório, com a permissão Actions.";
+  if (status === 422) return "O GitHub recusou o pedido. Confira se o arquivo robo-milhas.yml tem a linha workflow_dispatch.";
+  if (status === 0) return "Sem conexão com o GitHub. Tente de novo em instantes.";
+  return "Erro inesperado do GitHub (código " + status + ").";
+}
+
+async function dispararEAcompanhar(token) {
+  const botao = document.getElementById("btn-atualizar");
+  const { dono, repo } = infoRepositorio();
+  EM_EXECUCAO = true;
+  botao.disabled = true;
+  botao.textContent = "⏳ Rodando…";
+  mostrarAviso("Pedindo ao GitHub para rodar o robô…");
+
+  try {
+    let status = 0;
+    try {
+      const resp = await fetch(
+        `https://api.github.com/repos/${dono}/${repo}/actions/workflows/${WORKFLOW}/dispatches`,
+        {
+          method: "POST",
+          headers: {
+            "Accept": "application/vnd.github+json",
+            "Authorization": "Bearer " + token,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ ref: BRANCH }),
+        }
+      );
+      status = resp.status;
+    } catch (e) {
+      status = 0;
+    }
+
+    if (status !== 204) {
+      mostrarAviso(explicarErro(status), "erro");
+      if (status === 401) { removerToken(); atualizarLinkRemover(); }
+      return;
+    }
+
+    mostrarAviso("Robô iniciado! Leva cerca de 1 a 2 minutos (coleta + publicação). Pode deixar esta página aberta.");
+    const baseline = GERADO_EM_ATUAL;
+    const inicio = Date.now();
+    while (Date.now() - inicio < LIMITE_SONDAGEM_MS) {
+      await esperar(INTERVALO_SONDAGEM_MS);
+      const dados = await buscarDados();
+      if (dados && dados.gerado_em && dados.gerado_em !== baseline) {
+        aplicarDados(dados);
+        mostrarAviso("✅ Atualizado em " + dados.gerado_em + ".", "ok");
+        return;
+      }
+    }
+    mostrarAviso(
+      "O robô foi iniciado, mas a página ainda não mostra dados novos. Recarregue em 1 ou 2 minutos; " +
+      "se continuar igual, veja a aba Actions no GitHub.", "erro"
+    );
+  } finally {
+    EM_EXECUCAO = false;
+    botao.disabled = false;
+    botao.textContent = "🔄 Atualizar agora";
+    atualizarLinkRemover();
+  }
+}
+
+function aoClicarAtualizar() {
+  if (EM_EXECUCAO) return;
+  const token = lerToken();
+  if (!token) { abrirPainel(); return; }
+  dispararEAcompanhar(token);
+}
+
+function aoSalvarToken() {
+  const token = document.getElementById("campo-token").value.trim();
+  if (token.length < 20) {
+    abrirPainel("Esse texto parece curto demais para ser um token. Copie o token inteiro.");
+    return;
+  }
+  salvarToken(token);
+  fecharPainel();
+  dispararEAcompanhar(token);
 }
 
 document.getElementById("filtros").addEventListener("click", (e) => {
   if (e.target.tagName !== "BUTTON") return;
-  document.querySelectorAll("#filtros button").forEach(b => b.classList.remove("ativo"));
+  document.querySelectorAll("#filtros button").forEach((b) => b.classList.remove("ativo"));
   e.target.classList.add("ativo");
   FILTRO_ATIVO = e.target.dataset.filtro;
   renderizarLista();
@@ -226,6 +535,17 @@ document.getElementById("filtros").addEventListener("click", (e) => {
 
 document.getElementById("busca").addEventListener("input", renderizarLista);
 
+document.getElementById("btn-atualizar").addEventListener("click", aoClicarAtualizar);
+document.getElementById("btn-salvar-token").addEventListener("click", aoSalvarToken);
+document.getElementById("btn-fechar-painel").addEventListener("click", fecharPainel);
+document.getElementById("link-remover-token").addEventListener("click", (e) => {
+  e.preventDefault();
+  removerToken();
+  atualizarLinkRemover();
+  mostrarAviso("Token removido deste aparelho.");
+});
+
+atualizarLinkRemover();
 carregarDados();
 </script>
 

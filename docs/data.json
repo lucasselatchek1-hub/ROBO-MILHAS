@@ -1,18 +1,18 @@
 {
-  "gerado_em": "24/11/2026 19:11",
+  "gerado_em": "25/11/2026 06:41",
   "resumo": {
     "total": 60,
-    "novas": 43,
+    "novas": 2,
     "aumentou": 0,
     "excelentes": 3,
-    "cartoes": 4,
+    "cartoes": 3,
     "compras": 3,
-    "transferencias": 10
+    "transferencias": 11
   },
   "promocoes": [
     {
       "chave": "pontos pra voar::transfira pontos do premmia para o azul fidelidade com ate 120% de bonus",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul Fidelidade, Azul",
       "programa": "Azul Fidelidade",
       "tipo": "Transferencia bonificada",
@@ -29,11 +29,11 @@
       "prioridade": 1,
       "link": "https://pontospravoar.com/transfira-pontos-premmia-azul-fidelidade-ate-120-porcento-bonus/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::azul friday! ganhe ate 120% de bonus na transferencia de pontos do inter loop para o azul fidelidade",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul Fidelidade, Azul, Inter",
       "programa": "Azul Fidelidade",
       "tipo": "Transferencia bonificada",
@@ -50,11 +50,11 @@
       "prioridade": 1,
       "link": "https://pontospravoar.com/azul-friday-ganhe-ate-120-porcento-bonus-transferencia-pontos-inter-loop-azul-fidelidade/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::azul fidelidade oferece ate 120% de bonus nas transferencias de pontos do inter loop",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul Fidelidade, Azul, Inter",
       "programa": "Azul Fidelidade",
       "tipo": "Transferencia bonificada",
@@ -71,11 +71,11 @@
       "prioridade": 1,
       "link": "https://passageirodeprimeira.com/azul-fidelidade-oferece-ate-120-bonus-transferencias-pontos-inter-loop/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::black da udm: aproveite 60% off para entrar no mundo avios",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Avios",
       "programa": "Avios",
       "tipo": "Clube / assinatura",
@@ -92,11 +92,11 @@
       "prioridade": 2,
       "link": "https://passageirodeprimeira.com/black-da-udm-aproveite-60-off-para-entrar-no-mundo-avios/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::blackissima! compre pontos esfera com ate 55% de desconto com o cupom do ppv",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Esfera",
       "programa": "Esfera",
       "tipo": "Necessita verificacao",
@@ -113,11 +113,11 @@
       "prioridade": 3,
       "link": "https://pontospravoar.com/blackissima-compre-pontos-esfera-ate-55-porcento-desconto-cupom-ppv/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::black do pp! esfera oferece ate 55% de desconto na compra de pontos",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Esfera",
       "programa": "Esfera",
       "tipo": "Clube / assinatura",
@@ -134,11 +134,11 @@
       "prioridade": 3,
       "link": "https://passageirodeprimeira.com/black-do-pp-esfera-oferece-ate-55-de-desconto-na-compra-de-pontos/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::hospede-se em miami com ate 54% de desconto + 10% off com nosso cupom",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -155,11 +155,11 @@
       "prioridade": 3,
       "link": "https://passageirodeprimeira.com/hospede-se-miami-ate-54-desconto-10-off-nosso-cupom/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::ultimo dia! livelo oferece ate 30% off em passagens para italia + 30% de pointsback",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Livelo, Bradesco",
       "programa": "Livelo",
       "tipo": "Necessita verificacao",
@@ -176,11 +176,11 @@
       "prioridade": 3,
       "link": "https://passageirodeprimeira.com/ultimo-dia-livelo-oferece-ate-30-off-em-passagens-para-italia-30-de-pointsback/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::black friday ppv: assine o grupo de emissoes com ate 50% de desconto!",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Clube / assinatura",
@@ -197,11 +197,11 @@
       "prioridade": 3,
       "link": "https://pontospravoar.com/black-friday-ppv-assine-grupo-emissoes-ate-50-porcento-desconto/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::e black! 50% off: o maior desconto da historia dos alertas do pp",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -213,16 +213,16 @@
       "necessita_clube": null,
       "necessita_cartao": null,
       "necessita_cadastro": null,
-      "data_publicacao": "Tue, 24 Nov 2026 18:12:55 +0000",
+      "data_publicacao": "Tue, 24 Nov 2026 22:30:54 +0000",
       "classificacao": "🟡 BOA",
       "prioridade": 3,
       "link": "https://passageirodeprimeira.com/e-black-50-off-o-maior-desconto-da-historia-dos-alertas-do-pp/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::all signature libera experiencias especiais para assinantes absolute na black friday",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Clube / assinatura",
@@ -239,11 +239,11 @@
       "prioridade": 3,
       "link": "https://passageirodeprimeira.com/all-signature-libera-experiencias-especiais-para-assinantes-absolute-na-black-friday/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::especial bradesco! executiva da tap para milao por r$ 3.468 + taxas o trecho pela livelo  confira o passo a passo",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Livelo, TAP, Bradesco",
       "programa": "Livelo",
       "tipo": "Necessita verificacao",
@@ -260,11 +260,32 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/especial-bradesco-executiva-da-tap-para-milao-por-r-3-468-taxas-o-trecho-pela-livelo-confira-o-passo-a-passo/",
       "fonte": "Passageiro de Primeira",
+      "status": ""
+    },
+    {
+      "chave": "pontos pra voar::vai acabar! transfira pontos da livelo para o latam pass com 27% de bonus",
+      "data_coleta": "2026-11-25 06:41:11",
+      "empresa": "Livelo, LATAM Pass",
+      "programa": "Livelo",
+      "tipo": "Transferencia bonificada",
+      "descricao": "Vai acabar! Transfira pontos da Livelo para o LATAM Pass com 27% de bônus",
+      "bonus_pct": 27,
+      "pontos_por_real": null,
+      "gasto_minimo": null,
+      "nota": 27,
+      "necessita_clube": null,
+      "necessita_cartao": null,
+      "necessita_cadastro": null,
+      "data_publicacao": "Tue, 24 Nov 2026 22:36:38 +0000",
+      "classificacao": "⚪ NORMAL",
+      "prioridade": 4,
+      "link": "https://pontospravoar.com/vai-acabar-transfira-pontos-livelo-latam-pass-27-porcento-bonus/",
+      "fonte": "Pontos pra Voar",
       "status": "🆕 NOVA PROMOCAO"
     },
     {
       "chave": "pontos pra voar::ultimo dia! latam pass oferece 27% de bonus na transferencia de pontos livelo",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Livelo, LATAM Pass",
       "programa": "Livelo",
       "tipo": "Transferencia bonificada",
@@ -281,11 +302,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/ultimo-dia-latam-pass-oferece-27-porcento-bonus-transferencia-pontos-livelo/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::latam tem passagens para destinos de carnaval a partir de r$ 117 ou 4 mil milhas + taxas",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Livelo, LATAM Pass",
       "programa": "Livelo",
       "tipo": "Transferencia bonificada",
@@ -302,11 +323,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/latam-tem-passagens-para-destinos-de-carnaval-a-partir-de-r-117-ou-4-mil-milhas-taxas/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::ultimas horas para ganhar 27% de bonus nas transferencias de pontos livelo",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Livelo, LATAM Pass",
       "programa": "Livelo",
       "tipo": "Transferencia bonificada",
@@ -323,11 +344,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/ultimas-horas-para-ganhar-27-de-bonus-nas-transferencias-de-pontos-livelo/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::latam friday! ganhe 27% de bonus nas transferencias de pontos livelo",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Livelo, LATAM Pass",
       "programa": "Livelo",
       "tipo": "Transferencia bonificada",
@@ -348,7 +369,7 @@
     },
     {
       "chave": "pontos pra voar::por poucas horas! resgate passagens internacionais no azul pelo mundo com ate 20% de desconto",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul",
       "programa": "Azul",
       "tipo": "Necessita verificacao",
@@ -365,11 +386,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/poucas-horas-resgate-passagens-internacionais-azul-pelo-mundo-ate-20-porcento-desconto/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::azul oferece ate 20% de desconto em passagens no azul pelo mundo",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul, TAP",
       "programa": "Azul",
       "tipo": "Necessita verificacao",
@@ -386,11 +407,32 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/azul-oferece-ate-20-de-desconto-em-passagens-no-azul-pelo-mundo/",
       "fonte": "Passageiro de Primeira",
+      "status": ""
+    },
+    {
+      "chave": "pontos pra voar::radar ppv! resumo das promocoes de acumulo e transferencia de pontos do dia 24 de novembro de 2026",
+      "data_coleta": "2026-11-25 06:41:11",
+      "empresa": "Necessita verificacao",
+      "programa": "Necessita verificacao",
+      "tipo": "Transferencia bonificada",
+      "descricao": "Radar PPV! Resumo das promoções de acúmulo e transferência de pontos do dia 24 de novembro de 2026",
+      "bonus_pct": null,
+      "pontos_por_real": null,
+      "gasto_minimo": null,
+      "nota": 0,
+      "necessita_clube": null,
+      "necessita_cartao": null,
+      "necessita_cadastro": null,
+      "data_publicacao": "Tue, 24 Nov 2026 23:00:38 +0000",
+      "classificacao": "⚪ NORMAL",
+      "prioridade": 4,
+      "link": "https://pontospravoar.com/radar-ppv-resumo-promocoes-acumulo-transferencia-pontos-dia-24-novembro-2026/",
+      "fonte": "Pontos pra Voar",
       "status": "🆕 NOVA PROMOCAO"
     },
     {
       "chave": "pontos pra voar::ultimas horas: compre pontos azul fidelidade com ate 320% de bonus",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul Fidelidade, Azul",
       "programa": "Azul Fidelidade",
       "tipo": "Clube / assinatura",
@@ -407,11 +449,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/ultimas-horas-compre-pontos-azul-fidelidade-ate-320-porcento-bonus/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::alerta ppv! passagens para argentina a partir de 16 mil milhas latam pass",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "LATAM Pass",
       "programa": "LATAM Pass",
       "tipo": "Necessita verificacao",
@@ -428,11 +470,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/alerta-ppv-passagens-argentina-16-mil-milhas-latam-pass/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::segue valendo: clube smiles com ate 50.000 milhas na hora para novos assinantes",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Clube / assinatura",
@@ -449,11 +491,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/segue-valendo-clube-smiles-ate-50000-milhas-hora-novos-assinantes/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::confira 10 ofertas no shopping smiles que podem render uma passagem aerea",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Smiles, Magalu",
       "programa": "Smiles",
       "tipo": "Compra bonificada",
@@ -470,11 +512,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/confira-10-ofertas-shopping-smiles-podem-render-passagem-aerea/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::alerta ppv! 15 oportunidades para viajar pelo brasil a partir de 5.900 milhas smiles",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Necessita verificacao",
@@ -491,11 +533,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/alerta-ppv-15-oportunidades-para-viajar-pelo-brasil-a-partir-de-5-900-milhas-smiles/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::black friday all accor! reserve hoteis pet-friendly em sao paulo com diarias a partir de r$ 110",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Accor",
       "programa": "Accor",
       "tipo": "Necessita verificacao",
@@ -512,11 +554,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/black-friday-all-accor-reserve-hoteis-pet-friendly-sao-paulo-diarias-110-reais/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::latam friday! shopping latam pass oferece ate 12 milhas por real no magalu",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "LATAM Pass, Magalu",
       "programa": "LATAM Pass",
       "tipo": "Compra bonificada",
@@ -533,11 +575,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/latam-friday-shopping-latam-pass-oferece-ate-12-milhas-real-magalu/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::alerta ppv! azul fidelidade tem passagens nacionais a partir de 2.800 pontos",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul Fidelidade, Azul",
       "programa": "Azul Fidelidade",
       "tipo": "Necessita verificacao",
@@ -554,11 +596,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/alerta-ppv-azul-fidelidade-passagens-nacionais-2800-pontos/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::black friday mercado livre: aproveite ate r$ 200 de desconto em cupons",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Mercado Livre",
       "programa": "Mercado Livre",
       "tipo": "Necessita verificacao",
@@ -575,11 +617,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/black-friday-mercado-livre-aproveite-ate-200-reais-desconto-cupons/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::pink friday! livelo oferece ate 15 pontos por real em lojas parceiras",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Livelo",
       "programa": "Livelo",
       "tipo": "Transferencia bonificada",
@@ -596,11 +638,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/pink-friday-livelo-oferece-ate-15-pontos-real-lojas-parceiras/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::air france recebe novamente classificacao de cinco estrelas da apex e conquista dois premios",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -617,53 +659,11 @@
       "prioridade": 4,
       "link": "https://pontospravoar.com/air-france-recebe-novamente-classificacao-de-cinco-estrelas-da-apex-e-conquista-dois-premios/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
-    },
-    {
-      "chave": "pontos pra voar::latam friday! solicite o cartao latam pass itau mastercard e ganhe ate 100 mil milhas bonus",
-      "data_coleta": "2026-11-24 19:11:22",
-      "empresa": "LATAM Pass, Itau, Itaú",
-      "programa": "LATAM Pass",
-      "tipo": "Cartao de credito",
-      "descricao": "LATAM Friday! Solicite o cartão LATAM Pass Itaú Mastercard e ganhe até 100 mil milhas bônus",
-      "bonus_pct": null,
-      "pontos_por_real": null,
-      "gasto_minimo": null,
-      "nota": 0,
-      "necessita_clube": null,
-      "necessita_cartao": true,
-      "necessita_cadastro": null,
-      "data_publicacao": "Tue, 24 Nov 2026 11:00:45 +0000",
-      "classificacao": "⚪ NORMAL",
-      "prioridade": 4,
-      "link": "https://pontospravoar.com/latam-friday-solicite-cartao-latam-pass-itau-mastercard-ganhe-ate-100-mil-milhas-bonus/",
-      "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
-    },
-    {
-      "chave": "pontos pra voar::radar ppv! resumo das promocoes de acumulo e transferencia de pontos do dia 23 de novembro de 2026",
-      "data_coleta": "2026-11-24 19:11:22",
-      "empresa": "Necessita verificacao",
-      "programa": "Necessita verificacao",
-      "tipo": "Transferencia bonificada",
-      "descricao": "Radar PPV! Resumo das promoções de acúmulo e transferência de pontos do dia 23 de novembro de 2026",
-      "bonus_pct": null,
-      "pontos_por_real": null,
-      "gasto_minimo": null,
-      "nota": 0,
-      "necessita_clube": null,
-      "necessita_cartao": null,
-      "necessita_cadastro": null,
-      "data_publicacao": "Mon, 23 Nov 2026 23:00:10 +0000",
-      "classificacao": "⚪ NORMAL",
-      "prioridade": 4,
-      "link": "https://pontospravoar.com/radar-ppv-resumo-promocoes-acumulo-transferencia-pontos-dia-23-novembro-2026/",
-      "fonte": "Pontos pra Voar",
       "status": ""
     },
     {
       "chave": "passageiro de primeira::shopping latam pass oferece ate 12 milhas por real gasto na magalu",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "LATAM Pass, Magalu",
       "programa": "LATAM Pass",
       "tipo": "Compra bonificada",
@@ -680,11 +680,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/shopping-latam-pass-oferece-ate-12-milhas-real-gasto-magalu/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::voe de sao paulo para dubai a partir de r$ 2.295 ou 153 mil pontos azul + taxas",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul Fidelidade, Azul",
       "programa": "Azul Fidelidade",
       "tipo": "Necessita verificacao",
@@ -701,11 +701,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/voe-de-sao-paulo-para-dubai-a-partir-de-r-2-295-ou-153-mil-pontos-azul-taxas/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::voe para sao francisco a partir de r$ 1.372 ou 91 mil pontos azul + taxas",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul Fidelidade, Azul",
       "programa": "Azul Fidelidade",
       "tipo": "Necessita verificacao",
@@ -722,11 +722,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/voe-para-sao-francisco-a-partir-de-r-1-372-ou-91-mil-pontos-azul-taxas/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::bradesco lanca nova versao do amex the platinum card em metal com ate 4 pontos por dolar",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Livelo, Bradesco",
       "programa": "Livelo",
       "tipo": "Cartao de credito",
@@ -743,11 +743,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/bradesco-lanca-nova-versao-do-amex-the-platinum-card-em-metal-com-ate-4-pontos-por-dolar/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::5 sugestoes de voos internacionais a partir de 22 mil milhas smiles + taxas",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Necessita verificacao",
@@ -764,11 +764,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/5-sugestoes-voos-internacionais-a-partir-22-mil-milhas-smiles-taxas/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::voo de sao paulo para buenos aires por apenas 15 mil pontos azul + taxas",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul Fidelidade, Azul",
       "programa": "Azul Fidelidade",
       "tipo": "Necessita verificacao",
@@ -785,11 +785,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/voo-de-sao-paulo-para-buenos-aires-por-apenas-15-mil-pontos-azul-taxas/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::vem ai a black friday marriott! peca seu cartao com ate 35 mil pontos bonus e ate 4 mais pontos em hospedagens",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Bradesco",
       "programa": "Bradesco",
       "tipo": "Cartao de credito",
@@ -806,11 +806,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/vem-ai-a-black-friday-marriott-peca-seu-cartao-com-ate-35-mil-pontos-bonus-e-ate-4x-mais-pontos-em-hospedagens/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::voe de recife para madri a partir de 16 mil avios iberia club + taxas",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Avios",
       "programa": "Avios",
       "tipo": "Necessita verificacao",
@@ -827,11 +827,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/barato-voe-de-recife-para-madri-a-partir-16-mil-avios-iberia-club-taxas/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::muito bom! ganhe ate 100.000 milhas bonus ao pedir o cartao latam pass itau mastercard black ou platinum",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "LATAM Pass, Itau, Itaú",
       "programa": "LATAM Pass",
       "tipo": "Cartao de credito",
@@ -848,11 +848,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/muito-bom-ganhe-ate-100-000-milhas-bonus-ao-pedir-o-cartao-latam-pass-itau-mastercard-black-ou-platinum/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::prepare-se para a black friday! receba de graca as melhores ofertas e oportunidades no seu whatsapp",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -869,11 +869,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/prepare-se-para-a-black-friday-receba-de-graca-as-melhores-ofertas-e-oportunidades-no-seu-whatsapp/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::gol vai sortear viagens nacionais, internacionais e 300 mil milhas smiles",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Smiles",
       "programa": "Smiles",
       "tipo": "Necessita verificacao",
@@ -890,11 +890,11 @@
       "prioridade": 4,
       "link": "https://passageirodeprimeira.com/gol-vai-sortear-viagens-nacionais-internacionais-e-300-mil-milhas-smiles/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::e amanha! esta chegando o maior desconto da historia nos alertas do pp",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -915,7 +915,7 @@
     },
     {
       "chave": "passageiro de primeira::salas vip bradesco lounge  conheca os lounges proprios e parceiros",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Bradesco",
       "programa": "Bradesco",
       "tipo": "Necessita verificacao",
@@ -936,7 +936,7 @@
     },
     {
       "chave": "passageiro de primeira::missao latam pass: ganhe 1.500 milhas extras ao realizar transferencias bancarias",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "LATAM Pass",
       "programa": "LATAM Pass",
       "tipo": "Transferencia bonificada",
@@ -957,7 +957,7 @@
     },
     {
       "chave": "passageiro de primeira::ganhe 60 mil pontos bonus na assinatura ou atualizacao do clube esfera",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Esfera",
       "programa": "Esfera",
       "tipo": "Clube / assinatura",
@@ -978,7 +978,7 @@
     },
     {
       "chave": "passageiro de primeira::latam disponibiliza trecho para lisboa a partir de 61 mil milhas ou r$ 1.460 + taxas",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "LATAM Pass",
       "programa": "LATAM Pass",
       "tipo": "Necessita verificacao",
@@ -999,7 +999,7 @@
     },
     {
       "chave": "mestre das milhas::mala de rodinha ou mochila de viagem: como avaliar a melhor opcao para o seu estilo",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1020,7 +1020,7 @@
     },
     {
       "chave": "mestre das milhas::emitir passagem com milhas para outra pessoa: o que observar antes de resgatar",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1041,7 +1041,7 @@
     },
     {
       "chave": "mestre das milhas::mala de mao para um fim de semana: como levar so o necessario sem passar aperto",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1062,7 +1062,7 @@
     },
     {
       "chave": "mestre das milhas::promocao para a data errada: como nao comprar passagem so porque estava barata",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1083,7 +1083,7 @@
     },
     {
       "chave": "mestre das milhas::passaporte perto de vencer: por que a regra dos seis meses pode atrapalhar sua viagem",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1104,7 +1104,7 @@
     },
     {
       "chave": "mestre das milhas::assistencia especial no aeroporto: como avaliar o atendimento para idosos, gestantes e pessoas com mobilidade reduzida",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1125,7 +1125,7 @@
     },
     {
       "chave": "mestre das milhas::aluguel de carro e programas de fidelidade: como somar pontos e economizar na locacao",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1146,7 +1146,7 @@
     },
     {
       "chave": "mestre das milhas::como dormir melhor em voos longos e chegar descansado ao destino",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1167,7 +1167,7 @@
     },
     {
       "chave": "mestre das milhas::a promocao nao foi cumprida? veja como registrar uma reclamacao do jeito certo",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1188,7 +1188,7 @@
     },
     {
       "chave": "mestre das milhas::perdeu a conexao por causa de atraso no primeiro voo? entenda como funciona a reacomodacao",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1209,7 +1209,7 @@
     },
     {
       "chave": "passageiro de primeira::ultimas horas para receber ate 320% de bonus na compra de pontos do azul fidelidade",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Azul Fidelidade, Azul, Itau, Itaú",
       "programa": "Azul Fidelidade",
       "tipo": "Necessita verificacao",
@@ -1226,11 +1226,11 @@
       "prioridade": 5,
       "link": "https://passageirodeprimeira.com/ultimas-horas-receber-ate-320-bonus-compra-pontos-azul-fidelidade/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "pontos pra voar::segue valendo! yellow friday da nomad oferece ate 5,5% de cashback na conversao e 5gb de internet gratis",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1247,11 +1247,11 @@
       "prioridade": 5,
       "link": "https://pontospravoar.com/segue-valendo-yellow-friday-nomad-oferece-ate-55-porcento-cashback-conversao-5gb-internet-gratis/",
       "fonte": "Pontos pra Voar",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     },
     {
       "chave": "passageiro de primeira::dolar em queda! ganhe ate 5,5% de cashback na primeira conversao e acesso ao nomad lounge",
-      "data_coleta": "2026-11-24 19:11:22",
+      "data_coleta": "2026-11-25 06:41:11",
       "empresa": "Necessita verificacao",
       "programa": "Necessita verificacao",
       "tipo": "Necessita verificacao",
@@ -1268,7 +1268,7 @@
       "prioridade": 5,
       "link": "https://passageirodeprimeira.com/dolar-em-queda-ganhe-ate-55-de-cashback-na-primeira-conversao-e-acesso-ao-nomad-lounge/",
       "fonte": "Passageiro de Primeira",
-      "status": "🆕 NOVA PROMOCAO"
+      "status": ""
     }
   ]
 }
